@@ -348,6 +348,16 @@ export default function App() {
           <p className="text-zinc-300 mb-6">{t("projects_title")}</p>
           <div className="grid md:grid-cols-2 gap-6">
             <Project
+              title={t("projects_bledeck_title")}
+              description={t("projects_bledeck_desc")}
+              link="https://github.com/argaar/BLEDeck"
+            />
+            <Project
+              title={t("projects_tracker_title")}
+              description={t("projects_tracker_desc")}
+              link="https://github.com/argaar/ttgo-lora32-v2-ttn-tracker"
+            />
+            <Project
               title={t("projects_traccar_title")}
               description={t("projects_traccar_desc")}
               link="https://gitlab.com/argaar/traccar-telegram-bot"
@@ -356,16 +366,6 @@ export default function App() {
               title={t("projects_teltonika_title")}
               description={t("projects_teltonika_desc")}
               link="https://github.com/argaar/GPS_Teltonika_Server"
-            />
-            <Project
-              title={t("projects_tracker_title")}
-              description={t("projects_tracker_desc")}
-              link="https://github.com/argaar/ttgo-lora32-v2-ttn-tracker"
-            />
-            <Project
-              title={t("projects_bledeck_title")}
-              description={t("projects_bledeck_desc")}
-              link="https://github.com/argaar/BLEDeck"
             />
           </div>
         </section>
